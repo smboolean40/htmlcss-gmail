@@ -4,3 +4,44 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/* Common */
+body {
+	background-image: url("../img/bg2_1920x1200.jpg");
+	background-size: cover;
+	color: #ffffff;
+}
+.container {
+	max-width: 900px;
+	margin: auto;
+}
+
+/* Header */
+.header-top {
+	padding: 10px 0;
+}
+.logo-img {
+	height: 60px;
+	vertical-align: middle;
+}
+.logo-text {
+	display: inline-block;
+	vertical-align: middle;
+}
+.header-bottom {
+	padding: 10px 0;
+}
+
+.email-unread {
+	font-size: 32px;
+	margin-top: 10px;
+}
+.email-number {
+	display: inline-block;
+	background-color: orange;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
