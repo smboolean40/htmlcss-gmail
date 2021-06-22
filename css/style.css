@@ -45,3 +45,17 @@ body {
 	line-height: 50px;
 	text-align: center;
 }
+
+/* Main */
+ul {
+	list-style: none;
+	color: black;
+}
+li {
+	background-color: lightgray;
+	border-bottom: 2px solid black;
+	padding: 5px;
+}
+.read {
+	background-color: white;
+}
